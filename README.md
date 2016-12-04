@@ -1,8 +1,8 @@
-Usage
-=====
+[badge]: https://projecteuler.net/profile/boltn.png
+![badge][badge]
 
-Haskell
--------
+Usage
+-----
 
 ```
 $ runghc haskell.hs 1 2 3
