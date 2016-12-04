@@ -1,0 +1,7 @@
+deploy:
+  image: ruby:2.3
+  type: deploy
+  script:
+  - git push https://707ba9ca4fdaa49f815ac086675047e625fb3d84@github.com/nbolt/boltfs.git $CI_BUILD_REF:$CI_BUILD_REF_NAME
+  only:
+  - master
